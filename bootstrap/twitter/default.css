@@ -1,0 +1,59 @@
+/* ------ general
+-----------------------------------------------*/
+
+body {
+font-family:Arial, Helvetica, sans-serif;
+background:orange;
+}
+
+/* ------ mobilyblocks
+-----------------------------------------------*/
+
+
+.socials {
+display:block;
+width:40px;
+height:40px;
+background:url(../blocks/img/socials/share.png) no-repeat;
+cursor:pointer;
+position:relative;
+}
+
+
+
+.socials {
+margin-bottom:50px;
+}
+
+ul.reset,
+ul.reset li {
+display:block;
+list-style:none;
+padding:0px;
+margin:0;
+}
+
+ul.reset li {
+position:absolute;
+}
+
+ul.reset li a {
+outline:none;
+}
+
+#content {
+padding-top:85px;
+/*width:560px;*/
+padding-top:15px;
+margin-left:155px;
+}
+
+
+a {
+color:#FF9900;
+}
+
+a img {
+border:none;
+}
+

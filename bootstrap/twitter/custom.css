@@ -1,0 +1,67 @@
+body
+{
+background-color: #F7F7F6;
+}
+.login
+{padding-top: 100px;
+
+}
+.center
+{float:clear;
+margin-left: 400px;
+ }
+ 
+form p input 
+{
+	border-radius:5px;
+	margin-left:40px;
+	size: 30px;
+	
+}
+
+#submit
+{
+	margin-left:50px;
+	float:left;
+	margin-top: 5px;
+
+}
+ 
+#hello
+{
+	margin-right:30px;
+	margin-bottom:40px;
+	border-radius:5px;
+	padding:5px;
+	margin-top:5px;
+	width:30%;
+	float:right;
+	
+}
+
+#checkbox
+{
+margin-left: 105px;
+	
+}
+*
+{	font-family:"Times New Roman", Times, serif;
+
+	
+}
+#facebook
+{
+	margin:10px;
+	margin-left:10px;
+}
+#bottom
+{   
+float:left;
+margin-left:0px;
+	
+}
+#link
+{
+float:left;
+margin-right:90px;
+}

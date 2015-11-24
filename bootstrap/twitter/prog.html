@@ -1,0 +1,38 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Example of Twitter Bootstrap 3 Dropdowns within a Navbar</title>
+<link rel="shortcut icon" href="DSC_0209.JPG">
+<script src = "bootstrap-3.2.0-dist/js/jquery-1.11.1.js"></script>
+<style type="text/css">
+@import url('//netdna.bootstrapcdn.com/bootstrap/2.3.2/css/bootstrap.min.css');
+
+.container {
+    margin-top: 70px;
+    width: 400px;
+}
+</style>
+<script>
+	var progress = setInterval(function() {
+    var $bar = $('.bar');
+    
+    if ($bar.width()==20) {
+        clearInterval(progress);
+        $('.progress').removeClass('active');
+    } else {
+        $bar.width($bar.width()+20);
+    }
+    $bar.text($bar.width()/4 + "%");
+}, 500);
+
+</script>
+<body>
+	<div class="container">
+    <div class="progress progress-striped active">
+        <div class="bar" style="width: 0%;"></div>
+    </div>
+</div>
+</body>
